@@ -1,0 +1,20 @@
+1. logic circuit to create pi to 5 or so decimal places [FPGA]
+2. Math with LED's (0-9 LED's, give it some form of arithematic and it shows the answer)[STM or FPGA]
+--also able to make a binary counter to show the math
+3. LED's on an output register (x8) with 4 switches. Do "some logic" and display
+the updates from comibnatorial logic [FPGA], showcases the real time aspect
+four in -> 8 out. multiplexer? Be creative.
+4. STM using one ADC channel to do a FTT or real time DFT(rolling if possible)
+**5. Program a SPIE, I2C, USB, CAN, Ethernet... some sort of bus. Implement one of these buses on the 
+FPGA and implment one on the STM-32 and make them talk to each other.
+--We're able to mix and match! One could do a number 2 project implemented with a number 5 project
+That would be two projects.
+6. Sine wave production via FPGA (Use of look up tables, this can produce dual or pure tones, 
+depending on how you use the PWM)
+7. Dial tones (use of dual tones with multiharmonics, this would take a lot of look-up tables)
+8. Linux project: Rasperry Pi/Orange Pi/NXP implement an I2C bus inside linux +Virtual memory
+9. Using PWM to control MOSFET to set voltage on outputs. Basically creating a DC to DC converter
+10. Maximum power point tracking (such as that used with Solar Arrays)
+
+
+** is mandatory for the semester.
